@@ -30,3 +30,12 @@
 
 - Terceira estrategia:
     `Breakpoints: Media Queries --> @media (max-width: numberpx){}`
+
+# Media Queries :
+```css
+@media (max-width: 320px){
+    #form h3{
+        font-size: 2rem;
+    }
+}
+```

@@ -20,6 +20,8 @@
 `em` - multiplicado pelo pai.
 `rem` - multiplicado pelo root.
 
+
+# Estrategias :
 - Primeira estrategia:
     `Colocar width : 100%. E ,caso precise, definir o max-width.`
 

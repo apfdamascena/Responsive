@@ -1,28 +1,30 @@
 # Responsive
 
-Layout :
+# Layout :
 
--Fixo 
-`px` - Pixels
+- Fixo 
+`px` - Pixels.
 
--Fluido
-`%` - Porcentagem
-`auto` - Automatico
-`vh` - viewport height
-`vw` - viewport width
+- Fluido
+`%` - Porcentagem.
+`auto` - Automatico.
+`vh` - viewport height.
+`vw` - viewport width.
 
-Texto :
+# Texto :
 
--fixos
+- fixos
 `1px` = 0.75pt
 
--fluidos
-`em` - multiplicado pelo pai
-`rem` - multiplicado pelo root
+- fluidos
+`em` - multiplicado pelo pai.
+`rem` - multiplicado pelo root.
 
-- primeira estrategia:
-    colocar width : 100%
-    e caso precise, definir o max-width. por exemplo: max-width:980px;
+- Primeira estrategia:
+    `Colocar width : 100%. E ,caso precise, definir o max-width.`
 
-- segunda estrategia:
-    definir body com font-size: 62.5% e trabalhar o resto do texto com 1.0rem para 10px;
+- Segunda estrategia:
+    `Definir body com font-size: 62.5% e trabalhar o resto do texto com 1.0rem para 10px;`
+
+- Terceira estrategia:
+    `Breakpoints: Media Queries --> @media (max-width: numberpx){}`
